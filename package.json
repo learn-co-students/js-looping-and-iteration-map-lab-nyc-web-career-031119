@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "gem install learn-co",
-    "test": "mocha --bail -R mocha-multi --reporter-options json=.results.json,spec=-"
+    "test": "mocha --timeout 15000"
   },
   "repository": {
     "type": "git",
